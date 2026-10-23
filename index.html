@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Barbearia premium especializada em cortes masculinos, barba e cuidados pessoais. Agende seu horário.">
+    <meta property="og:title" content="Barbearia Premium | Estilo e Tradição">
+    <meta property="og:description" content="Eleve seu estilo com nossos profissionais especializados.">
+    <meta property="og:type" content="website">
+    <title>Barbearia Premium | Estilo e Tradição</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Phosphor Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- SEÇÃO 1: HEADER -->
+    <header class="header" id="header">
+        <div class="container header-container">
+            <a href="#" class="logo">
+                <img src="assets/logo.png" alt="Logo Metanoia Barbearia">
+            </a>
+            <nav class="nav-desktop">
+                <a href="#hero">Início</a>
+                <a href="#diferenciais">Diferenciais</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#servicos">Serviços</a>
+                <a href="#equipe">Equipe</a>
+                <a href="#galeria">Galeria</a>
+            </nav>
+
+            <a href="https://wa.me/5585992166340?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20um%20hor%C3%A1rio." target="_blank" rel="noopener noreferrer" class="btn btn-primary nav-desktop">Agendar Horário</a>
+
+            <button class="mobile-menu-btn" aria-label="Abrir menu" aria-expanded="false">
+                <i class="ph ph-list"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Menu Mobile -->
+    <div class="mobile-menu" id="mobileMenu">
+        <button class="close-menu-btn" aria-label="Fechar menu"><i class="ph ph-x"></i></button>
+        <nav class="nav-mobile">
+            <a href="#hero">Início</a>
+            <a href="#diferenciais">Diferenciais</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#servicos">Serviços</a>
+            <a href="#equipe">Equipe</a>
+            <a href="#galeria">Galeria</a>
+            <a href="https://wa.me/5585992166340?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20um%20hor%C3%A1rio." target="_blank" rel="noopener noreferrer" class="btn btn-primary mt-4">Agendar Horário</a>
+        </nav>
+    </div>
+
+    <main>
+        <!-- SEÇÃO 2: HERO PRINCIPAL -->
+        <section class="hero" id="hero">
+            <div class="hero-bg">
+                <img src="https://images.unsplash.com/photo-1585747860715-2ba37e788b70?q=80&w=2074&auto=format&fit=crop" alt="Barbeiro fazendo a barba de um cliente" fetchpriority="high">
+            </div>
+            <div class="hero-overlay"></div>
+            <div class="container hero-content reveal">
+                <span class="subtitle">BEM-VINDO À ELITE</span>
+                <h1 class="hero-title">ESTILO E TRADIÇÃO<br>EM CADA DETALHE</h1>
+                <p class="hero-text">Eleve seu visual com uma experiência de barbearia premium. Profissionais especializados prontos para transformar seu estilo.</p>
+                <div class="hero-buttons">
+                    <a href="https://wa.me/5585992166340?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20um%20hor%C3%A1rio." target="_blank" rel="noopener noreferrer" class="btn btn-primary">Agendar Horário</a>
+                    <a href="#sobre" class="btn btn-outline">Conhecer Serviços</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- SEÇÃO 3: DIFERENCIAIS -->
+        <section class="features section-padding" id="diferenciais">
+            <div class="container">
+                <div class="features-grid reveal">
+                    <div class="feature-card">
+                        <i class="ph ph-scissors feature-icon"></i>
+                        <h3>Profissionais Especializados</h3>
+                        <p>Barbeiros experientes e atualizados com as últimas tendências.</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="ph ph-armchair feature-icon"></i>
+                        <h3>Atendimento Personalizado</h3>
+                        <p>Cada cliente recebe uma consultoria exclusiva para seu tipo de rosto.</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="ph ph-drop feature-icon"></i>
+                        <h3>Produtos Selecionados</h3>
+                        <p>Utilizamos apenas marcas premium para o cuidado do seu cabelo e pele.</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="ph ph-coffee feature-icon"></i>
+                        <h3>Ambiente Confortável</h3>
+                        <p>Um espaço pensado para o seu relaxamento, com boa música e bebidas.</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="ph ph-sparkle feature-icon"></i>
+                        <h3>Higiene e Cuidado</h3>
+                        <p>Materiais esterilizados e protocolos rigorosos de segurança.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SEÇÃO 4: SOBRE A BARBEARIA -->
+        <section class="about section-padding" id="sobre">
+            <div class="container about-container">
+                <div class="about-image reveal">
+                    <img src="assets/espaço metanoia.png" alt="Barbeiro concentrado realizando um corte" loading="lazy">
+                </div>
+                <div class="about-content reveal">
+                    <span class="subtitle">NOSSA HISTÓRIA</span>
+                    <h2 class="section-title">MAIS QUE UM CORTE, UMA EXPERIÊNCIA</h2>
+                    <p>Na nossa barbearia, acreditamos que o cuidado com a aparência vai além da tesoura. Criamos um refúgio urbano onde o homem moderno pode relaxar, cuidar de si e sair com a confiança renovada.</p>
+                    <p>Nossos profissionais unem técnicas clássicas e modernas, garantindo o melhor resultado para o seu estilo de vida.</p>
+                    <a href="#equipe" class="btn btn-outline mt-4">Conheça Nosso Trabalho</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- SEÇÃO 5: MARCAS E PARCEIROS -->
+        </section>
+
+        <!-- SEÇÃO 6: LISTA DE SERVIÇOS E PREÇOS -->
+        <section class="pricing section-padding" id="servicos">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="subtitle">INVISTA EM VOCÊ</span>
+                    <h2 class="section-title">NOSSOS SERVIÇOS</h2>
+                </div>
+                
+                <div class="services-container reveal">
+                    
+                    <!-- CATEGORIA: BARBA -->
+                    <div class="service-category">
+                        <h3 class="category-title">Barba</h3>
+                        <div class="pricing-grid">
+                            <div class="pricing-card">
+                                <div class="pricing-header">
+                                    <h3>Depilação Nasal <span class="duration">(15 min)</span></h3>
+                                    <span class="price">R$ 15,00</span>
+                                </div>
+                                <p>Cuidado rápido e eficaz para as narinas.</p>
+                                <a href="https://wa.me/5585992166340?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20Depila%C3%A7%C3%A3o%20Nasal." target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">Agendar</a>
+                            </div>
+                            <div class="pricing-card">
+                                <div class="pricing-header">
+                                    <h3>Barba <span class="duration">(20 min)</span></h3>
+                                    <span class="price">R$ 15,00</span>
+                                </div>
+                                <p>Modelagem, toalha quente e finalização com óleos.</p>
+                                <a href="https://wa.me/5585992166340?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20um%20servi%C3%A7o%20de%20Barba." target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">Agendar</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- CATEGORIA: CORTES DE CABELO -->
+                    <div class="service-category">
+                        <h3 class="category-title">Cortes de Cabelo</h3>
+                        <div class="pricing-grid">
+                            <div class="pricing-card">
+                                <div class="pricing-header">
+                                    <h3>Corte na Tesoura <span class="duration">(30 min)</span></h3>
+                                    <span class="price">R$ 25,00</span>
+                                </div>
+                                <p>Técnica clássica para um caimento perfeito.</p>
+                                <a href="https://wa.me/5585992166340?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20um%20Corte%20na%20Tesoura." target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">Agendar</a>
+                            </div>
+                            <div class="pricing-card">
+                                <div class="pricing-header">
+                                    <h3>Corte Social <span class="duration">(30 min)</span></h3>
+                                    <span class="price">R$ 25,00</span>
+                                </div>
+                                <p>Clássico, discreto e sempre elegante.</p>
+                                <a href="https://wa.me/5585992166340?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20um%20Corte%20Social." target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">Agendar</a>
+                            </div>
+                            <div class="pricing-card">
+                                <div class="pricing-header">
+                                    <h3>Degradê <span class="duration">(40 min)</span></h3>
+                                    <span class="price">R$ 25,00</span>
+                                </div>
+                                <p>Transição impecável e moderna.</p>
+                                <a href="https://wa.me/5585992166340?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20um%20Degrad%C3%AA." target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">Agendar</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- CATEGORIA: COMBOS -->
+                    <div class="service-category">
+                        <h3 class="category-title">Combos</h3>
+                        <div class="pricing-grid">
+                            <div class="pricing-card">
+                                <div class="pricing-header">
+                                    <h3>Barba + Sobrancelha <span class="duration">(35 min)</span></h3>
+                                    <span class="price">R$ 22,00</span>
+                                </div>
+                                <p>Combo perfeito para alinhar o visual.</p>
+                                <a href="https://wa.me/5585992166340?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20o%20Combo%20Barba%20%2B%20Sobrancelha." target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">Agendar</a>
+                            </div>
+                            <div class="pricing-card">
+                                <div class="pricing-header">
+                                    <h3>Degradê + Barba <span class="duration">(1h)</span></h3>
+                                    <span class="price">R$ 35,00</span>
+                                </div>
+                                <p>Corte moderno aliado ao cuidado da barba.</p>
+                                <a href="https://wa.me/5585992166340?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20o%20Combo%20Degrad%C3%AA%20%2B%20Barba." target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">Agendar</a>
+                            </div>
+                            <div class="pricing-card">
+                                <div class="pricing-header">
+                                    <h3>Degradê + Barba + Sobrancelha <span class="duration">(1h 15min)</span></h3>
+                                    <span class="price">R$ 42,00</span>
+                                </div>
+                                <p>O pacote completo para o seu estilo.</p>
+                                <a href="https://wa.me/5585992166340?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20o%20Combo%20Degrad%C3%AA%20%2B%20Barba%20%2B%20Sobrancelha." target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">Agendar</a>
+                            </div>
+                            <div class="pricing-card">
+                                <div class="pricing-header">
+                                    <h3>Degradê + Sobrancelha <span class="duration">(50 min)</span></h3>
+                                    <span class="price">R$ 32,00</span>
+                                </div>
+                                <p>Corte degradê com design de sobrancelha.</p>
+                                <a href="https://wa.me/5585992166340?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20o%20Combo%20Degrad%C3%AA%20%2B%20Sobrancelha." target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">Agendar</a>
+                            </div>
+                            <div class="pricing-card">
+                                <div class="pricing-header">
+                                    <h3>Social + Barba <span class="duration">(50 min)</span></h3>
+                                    <span class="price">R$ 35,00</span>
+                                </div>
+                                <p>Corte clássico com barba alinhada.</p>
+                                <a href="https://wa.me/5585992166340?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20o%20Combo%20Social%20%2B%20Barba." target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">Agendar</a>
+                            </div>
+                            <div class="pricing-card">
+                                <div class="pricing-header">
+                                    <h3>Social + Barba + Sobrancelha <span class="duration">(1h 5min)</span></h3>
+                                    <span class="price">R$ 42,00</span>
+                                </div>
+                                <p>Visual executivo completo e alinhado.</p>
+                                <a href="https://wa.me/5585992166340?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20o%20Combo%20Social%20%2B%20Barba%20%2B%20Sobrancelha." target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">Agendar</a>
+                            </div>
+                            <div class="pricing-card">
+                                <div class="pricing-header">
+                                    <h3>Social + Sobrancelha <span class="duration">(40 min)</span></h3>
+                                    <span class="price">R$ 32,00</span>
+                                </div>
+                                <p>Corte social com acabamento na sobrancelha.</p>
+                                <a href="https://wa.me/5585992166340?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20o%20Combo%20Social%20%2B%20Sobrancelha." target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">Agendar</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- CATEGORIA: DESIGNER -->
+                    <div class="service-category">
+                        <h3 class="category-title">Designer</h3>
+                        <div class="pricing-grid">
+                            <div class="pricing-card">
+                                <div class="pricing-header">
+                                    <h3>Sobrancelha na Navalha <span class="duration">(15 min)</span></h3>
+                                    <span class="price">R$ 7,00</span>
+                                </div>
+                                <p>Design e acabamento preciso na navalha.</p>
+                                <a href="https://wa.me/5585992166340?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20Sobrancelha%20na%20Navalha." target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">Agendar</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- SEÇÃO 7: ESTILOS E CORTES -->
+        <section class="styles">
+            <div class="style-card reveal">
+                <img src="https://images.unsplash.com/photo-1622286342621-4bd786c2447c?q=80&w=2070&auto=format&fit=crop" alt="Estilo de barba masculina" loading="lazy">
+                <div class="style-overlay">
+                    <h3>ESTILO E BARBA</h3>
+                    <a href="#servicos" class="btn btn-primary">Saiba Mais</a>
+                </div>
+            </div>
+            <div class="style-card reveal">
+                <img src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?q=80&w=1976&auto=format&fit=crop" alt="Corte de cabelo masculino moderno" loading="lazy">
+                <div class="style-overlay">
+                    <h3>CORTES MASCULINOS</h3>
+                    <a href="#servicos" class="btn btn-primary">Saiba Mais</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- SEÇÃO 8: NOSSA EQUIPE (ATUALIZADA) -->
+        <section class="team section-padding" id="equipe">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="subtitle">MESTRES DA TESOURA</span>
+                    <h2 class="section-title">CONHEÇA NOSSOS BARBEIROS</h2>
+                </div>
+                
+                <div class="team-grid reveal">
+                    <!-- Barbeiro 1 -->
+                    <div class="team-card">
+                        <img src="assets/Grasiel.png" alt="Grasiel Xavier" loading="lazy">
+                        <div class="team-info">
+                            <h3>Grasiel Xavier</h3>
+                            <p>Barbeiro</p>
+                            <a href="https://wa.me/5585992166340?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20com%20o%20profissional%20Grasiel%20Xavier." target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm mt-4">Agendar</a>
+                        </div>
+                    </div>
+                    <!-- Barbeiro 2 -->
+                    <div class="team-card">
+                        <img src="assets/Leandro.png" alt="Leandro" loading="lazy">
+                        <div class="team-info">
+                            <h3>Leandro</h3>
+                            <p>Barbeiro</p>
+                            <a href="https://wa.me/5585992166340?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20com%20o%20profissional%20Leandro." target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm mt-4">Agendar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SEÇÃO 10: GALERIA DE FOTOS -->
+        <section class="gallery section-padding" id="galeria">
+            <div class="container reveal">
+                <div class="section-header">
+                    <span class="subtitle">PORTFÓLIO</span>
+                    <h2 class="section-title">GALERIA</h2>
+                </div>
+                
+                <div class="gallery-grid">
+                    <div class="gallery-item" data-src="assets/port_1.png">
+                        <img src="assets/port_1.png" alt="Corte de cabelo finalizado" loading="lazy">
+                    </div>
+                    <div class="gallery-item video-item">
+                        <video src="assets/antes_dps1.mp4" autoplay loop muted playsinline></video>
+                    </div>
+                    <div class="gallery-item" data-src="assets/Port_2.png">
+                        <img src="assets/Port_2.png" alt="Detalhe de barba feita" loading="lazy">
+                    </div>
+                    <div class="gallery-item video-item">
+                        <video src="assets/antes_dps2.mp4" autoplay loop muted playsinline></video>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" aria-label="Fechar galeria"><i class="ph ph-x"></i></button>
+        <img src="" alt="Imagem ampliada da galeria" class="lightbox-img" id="lightboxImg">
+    </div>
+
+    <!-- SEÇÃO 11: FOOTER -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-col">
+                <a href="#" class="logo footer-logo">
+                    <img src="assets/logo.png" alt="Logo Metanoia Barbearia">
+                </a>
+                <p class="mt-4">Elevando o padrão de barbearia com estilo, técnica e exclusividade para o homem moderno.</p>
+            </div>
+            
+            <div class="footer-col">
+                <h4>Horário de Funcionamento</h4>
+                <ul class="footer-list">
+                    <li><span>Seg - Sex:</span> 09:00 - 20:00</li>
+                    <li><span>Sábado:</span> 09:00 - 18:00</li>
+                    <li><span>Domingo:</span> Fechado</li>
+                </ul>
+            </div>
+            
+            <div class="footer-col">
+                <h4>Contato</h4>
+                <ul class="footer-list">
+                    <li><i class="ph ph-map-pin"></i> [Endereço Completo Aqui]</li>
+                    <li>
+                        <i class="ph ph-whatsapp-logo"></i> 
+                        <a href="https://wa.me/5585992166340" target="_blank" rel="noopener noreferrer" style="color: inherit;">+55 85 99216-6340</a>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="footer-col">
+                <h4>Redes Sociais</h4>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/metanoia_barbearia/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="ph ph-instagram-logo"></i></a>
+                    <a href="https://wa.me/5585992166340" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><i class="ph ph-whatsapp-logo"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-col footer-map-col">
+                <h4>Localização</h4>
+                <div class="footer-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3978.653779362096!2d-38.6367058!3d-4.2872897!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7b8cd8cf07fccbd%3A0xc9ccd2aeb04dbcc8!2sMetanoia%20Barbearia!5e0!3m2!1spt-BR!2sbr!4v1792782748586!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2024 Metanoia Barbearia. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
